@@ -10,7 +10,10 @@
  	
  	<h1> Shortest Route</h1>
  	
+ 	<canvas id="route Canvas" width="200" height="100" style="border:1px solid #000000;">
+	</canvas>
  	
+ 	<button id="uploadButton" type="button" class="btn btn-info">Upload a Map</button>
  	
  	<!-- Upload Modal -->
  	<div id="uploadModal" class="mocal fade" role= "dialog">

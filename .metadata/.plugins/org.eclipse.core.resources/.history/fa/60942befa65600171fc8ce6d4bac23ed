@@ -1,0 +1,92 @@
+
+public class EdgeVertex{
+	private Vertex edgeVertex = new Vertex();
+	
+	private int edgeLength = 0;
+	//This is the side that the edge is for the given vertex.
+	//I.E. if the vertex supposidly has an edge that is above it the value would be UP;
+	private String edgeSide;
+	
+	private final String EDGE_SIDE_UP = "up";
+	private final String EDGE_SIDE_DOWN = "down";
+	private final String EDGE_SIDE_RIGHT = "right";
+	private final String EDGE_SIDE_LEFT = "left";
+	
+	public EdgeVertex(Vertex vertex){
+		this.edgeVertex = vertex;
+	}
+
+	/**
+	 * @return the edgeVertex
+	 */
+	public Vertex getEdgeVertex() {
+		return edgeVertex;
+	}
+	
+	/**
+	 * @param edgeVertex the edgeVertex to set
+	 */
+	public void setEdgeVertex(Vertex edgeVertex) {
+		this.edgeVertex = edgeVertex;
+	}
+
+
+	/**
+	 * @return the edgeLength
+	 */
+	public int getEdgeLength() {
+		return edgeLength;
+	}
+	
+	/**
+	 * @param edgeLength the edgeLength to set
+	 */
+	public void setEdgeLength(int edgeLength) {
+		this.edgeLength = edgeLength;
+	}
+
+
+	/**
+	 * @return the edgeSide
+	 */
+	public String getEdgeSide() {
+		return edgeSide;
+	}
+	
+	/**
+	 * @param edgeSide the edgeSide to set
+	 */
+	public void setEdgeSide(String edgeSide) {
+		this.edgeSide = edgeSide;
+	}
+
+	/**
+	 * @return the eDGE_SIDE_UP
+	 */
+	public String getEDGE_SIDE_UP() {
+		return EDGE_SIDE_UP;
+	}
+
+	/**
+	 * @return the eDGE_SIDE_DOWN
+	 */
+	public String getEDGE_SIDE_DOWN() {
+		return EDGE_SIDE_DOWN;
+	}
+
+	/**
+	 * @return the eDGE_SIDE_RIGHT
+	 */
+	public String getEDGE_SIDE_RIGHT() {
+		return EDGE_SIDE_RIGHT;
+	}
+
+	/**
+	 * @return the eDGE_SIDE_LEFT
+	 */
+	public String getEDGE_SIDE_LEFT() {
+		return EDGE_SIDE_LEFT;
+	}
+	
+	
+}
